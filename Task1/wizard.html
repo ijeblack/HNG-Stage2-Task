@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG 8.0 Task 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+<body>
+    <div id="abc">
+        <nav>
+            <div style="display: inline;float: left;">
+                <a href="https://internship.zuri.team/" target="_blank" alt="zuri_logo">
+                    <img src="./images/zuri logo.png" style="width: 70px;height: 70px;" />
+                </a>
+                <a href="https://ingressive.org/" target="_blank">
+                    <img src="./images/i4g.jfif" style="width:150px; height:70px" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <ul class="steps">
+                <li class="is-active">Step 1</li>
+                <li>Step 2</li>
+                <li>Step 3</li>
+            </ul>
+            <form class="form-wrapper">
+                <fieldset class="section is-active">
+                    <h3>Basic Info.</h3>
+                    <div style="align-items: center;text-align: left;">
+                        <label style="width: 50%;display: block;margin-left: auto;margin-right: auto;">Full Name</label>
+                        <input type="text" name="name" id="name" value="Ijeoma Abraham Faith" placeholder="Name"
+                            disabled>
+                    </div>
+                    <div style="align-items: center;text-align: left;">
+                        <label style="width: 50%;display: block;margin-left: auto;margin-right: auto;">Email</label>
+                        <input type="text" name="email" id="email" value="ijeblack@wxsdd.com" placeholder="Email"
+                            disabled>
+                    </div>
+
+                    <div style="align-items: center;text-align: left;">
+                        <label style="width: 50%;display: block;margin-left: auto;margin-right: auto;">Role</label>
+                        <input type="text" name="role" id="email" value="Frontend Developer" placeholder="Email">
+                    </div>
+                    <div style="align-items: center;text-align: left;">
+                        <label style="width: 50%;display: block;margin-left: auto;margin-right: auto;">Slack
+                            Username</label>
+                        <input type="text" name="username" id="email" value="@Ijeblack">
+                    </div>
+                    <div class="button">Next</div>
+                </fieldset>
+                <fieldset class="section">
+                    <h3>Track</h3>
+                    <div class="row cf">
+                        <div class="four col">
+                            <input type="radio" name="r1" id="r1">
+                            <label for="r1">
+                                <h4>UI/UX</h4>
+                            </label>
+                        </div>
+                        <div class="four col">
+                            <input type="radio" name="r1" id="r2" checked>
+                            <label for="r2">
+                                <h4>Frontend</h4>
+                            </label>
+                        </div>
+                        <div class="four col">
+                            <input type="radio" name="r1" id="r3"><label for="r3">
+                                <h4>Backend</h4>
+                            </label>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px;">
+
+                        <div class="button-back" id="back" style="margin-right: 120px;margin-top: 30px;">Back</div>
+                        <div class="button">Next</div>
+                    </div>
+                </fieldset>
+                <fieldset class="section">
+                    <h3>Links</h3>
+                    <div style="align-items: center;text-align: left;">
+                        <label style="width: 50%;display: block;margin-left: auto;margin-right: auto;">Repo Link for
+                            Name Task</label>
+                        <div style="display: flex;align-items: center;">
+                            <input type="text" name="repo_link_name_task" id="repo_link_name_task" value="https://github.com/ijeblack/hng_nametask_link" disabled>
+                            <a style="right: 65px;position: absolute;background-color: #22bb33;padding: 10px;color: white;" href="https://github.com/ijeblack/hngtask" target="_blank"> Take me there</a>
+                        </div>
+                    </div>
+                    <div style="align-items: center;text-align: left;">
+                        <label style="width: 50%;display: block;margin-left: auto;margin-right: auto;">Demo Link for Name Task</label>
+                        <div style="display: flex;align-items: center;">
+                            <input type="text" name="repo_link_name_task" id="demo_link_name_task" value="https://github.com/ijeblack/hng_nametask_link" disabled>
+                            <a style="right: 65px;position: absolute;background-color: #22bb33;padding: 10px;color: white;" href="https://github.com/ijeblack/hngtask" target="_blank"> Take me there</a>
+                        </div>
+                    </div>
+                    <div style="align-items: center;text-align: left;">
+                        <label style="width: 50%;display: block;margin-left: auto;margin-right: auto;">Repo Link for Task 2 (Resume Task)</label>
+                        <div style="display: flex;align-items: center;">
+                            <input type="text" name="repo_link_resume_task" id="repo_link_resume_task" value="https://github.com/ijeblack/hng_nametask_link" disabled>
+                            <a style="right: 65px;position: absolute;background-color: #22bb33;padding: 10px;color: white;" href="https://github.com/ijeblack/hngtask" target="_blank"> Take me there</a>
+                        </div>
+                    </div>
+                    <div style="align-items: center;text-align: left;">
+                        <label style="width: 50%;display: block;margin-left: auto;margin-right: auto;">Demo Link for Task 2 (Resume Task)</label>
+                        <div style="display: flex;align-items: center;">
+                            <input type="text" name="demo_link_name_task" id="demo_link_name_task" value="https://github.com/ijeblack/hng_nametask_link" disabled>
+                            <a style="right: 65px;position: absolute;background-color: #22bb33;padding: 10px;color: white;" href="https://github.com/ijeblack/hngtask" target="_blank"> Take me there</a>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 40px;">
+                        <div class="button-back" id="back" style="margin-right: 120px;margin-top: 30px;">Back</div>
+                        <div class="button">Next</div>
+                    </div>
+                </fieldset>
+                <fieldset class="section">
+                    <h3>THANK YOU!</h3>
+                    <p>Want to view again?</p>
+                    <div class="button"
+                        style="text-align: center; left: auto; right: auto; bottom: auto;position: relative;">Start
+                        afresh</div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".form-wrapper .button").click(function () {
+                var button = $(this);
+                var currentSection = button.parents(".section");
+                var currentSectionIndex = currentSection.index();
+                var headerSection = $('.steps li').eq(currentSectionIndex);
+                currentSection.removeClass("is-active").next().addClass("is-active");
+                headerSection.removeClass("is-active").next().addClass("is-active");
+
+                $(".form-wrapper").submit(function (e) {
+                    e.preventDefault();
+                });
+
+                if (currentSectionIndex === 3) {
+                    $(document).find(".form-wrapper .section").first().addClass("is-active");
+                    $(document).find(".steps li").first().addClass("is-active");
+                }
+            });
+
+            $(".form-wrapper #back").click(function () {
+                var button = $(this);
+                var currentSection = button.parents(".section");
+                var currentSectionIndex = currentSection.index();
+                var headerSection = $('.steps li').eq(currentSectionIndex);
+                currentSection.removeClass("is-active").prev().addClass("is-active");
+                headerSection.removeClass("is-active").prev().addClass("is-active");
+
+            });
+        });
+
+    </script>
+</body>
+</html>
+
+
